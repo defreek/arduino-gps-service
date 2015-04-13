@@ -7,7 +7,7 @@ var gpsutil = require('./handlers/gpsutils');
 
 app.use( bodyParser.json() );
 
-app.post('/gps/pointinpolygon', gpsutil.isPointInPolygon);
+app.post('/gps/ispointinpolygon', gpsutil.isPointInPolygon);
 
 var server = app.listen(process.env.PORT || 3000, function () {
 
