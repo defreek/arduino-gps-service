@@ -1,0 +1,23 @@
+{
+  "name": "arduino-gps-service",
+  "version": "1.0.0",
+  "description": "A simple webserver with utilities for use with the arduino gps shield.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defreek/arduino-gps-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defreek/arduino-gps-service/issues"
+  },
+  "homepage": "https://github.com/defreek/arduino-gps-service",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3"
+  }
+}
